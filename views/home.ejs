@@ -1,67 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-  body {
-    background-color: rgb(12, 34, 14) ;
-    color: rgb(248, 255, 249);
-    font-family: Arial, sans-serif;
-    padding: 10% 30%;
-
-    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCHdtCJjcfdUwVR74CW3BIGzRwDgHKXRCGjKqgsOjliTfSiniOzdvAp_DxgjYC4XTNw8sZ9hycULGOBUEWZHl83B0BbHP96NvHd45or5_LrWX1gTDRE1XUoRq51V8K1mslyLgREymfJTdC1J5v-PKnaVN-WO89Mw7a20K6aajiEtylUUPBeaMZDJqiqWk/w706-h475/IMG_20240602_074458200_HDR_AE%20(1).jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 1;
-  }
-
-  button{
-    margin: 40%;
-    width: 50%;
-    height: 40%;
-    border-radius: 10%;
-    background-color: black;
-    color: yellow;
-
-  }
-
-  #homeContent {
-    text-align: center;
-    padding: 20px;
-    border: 2px solid rgb(248, 255, 249);
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  </style>
-
-
-
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/home.css">
   <title>home</title>
 </head>
 <body>
-  <div id = "homeContent">
-  <h1 >
-    SPD Works
-  </h1>
+  <%- include('navbar') %>
 
-  <p>
-    Simplicity Works Fine
-    </p>
-    <img src="../staticAssests/portlogo.jpg" alt="logo">
-
-</div>
-<div>
-  <button>about</button>
-</div>
+  <header>
+    <h1>Your one-stop shop for fresh vegetables</h1>
+    
+  </header>
 
 
 
+  <div id="homeContent">
+
+    <div class="card-grid">
+      <div class="card">
+        <img src="brinjal.jpg" alt="brinjal">
+        <h2>brinjal</h2>
+        <p>supporting heart health, aiding in weight management, and potentially helping to regulate blood sugar levels</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="beetroot.jpg" alt="beetroot">
+        <h2>beetroot</h2>
+        <p>improve blood pressure, exercise performance, and potentially reduce the risk of chronic diseases like heart disease and some cancers.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+     
+      <div class="card">
+        <img src="broccoli.jpg" alt="broccoli">
+        <h2>broccoli</h2>
+        <p>mprove heart health, boost immunity, support healthy digestion, and potentially reduce the risk of chronic diseases.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="carrot.jpg" alt="carrot">
+        <h2>carrot</h2>
+        <p>help keep blood sugar levels under control.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="cauli_flower.jpg" alt="cauliflower">
+        <h2>cauliflower</h2>
+        <p>Eating cauliflower can contribute to a healthy digestive system, potentially reduce the risk of certain cancers, and aid in weight management.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      
+      <div class="card">
+        <img src="celery.jpg" alt="celery">
+        <h2>celery</h2>
+        <p>elp relax the artery muscles and increases blood flow.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="chilly.jpg" alt="chilly">
+        <h2>chilly</h2>
+        <p>boost immunity, improve eye health, aid digestion, and potentially even help with weight management.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="coriander.jpg" alt="coriander">
+        <h2>coriander</h2>
+        <p>help lower your blood sugar, fight infections, and promote heart, brain, skin, and digestive health.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="corn.jpg" alt="corn">
+        <h2>corn</h2>
+        <p>B vitamins (like thiamin, riboflavin, niacin, folate, and pantothenic acid), vitamin C, and vitamin E.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="cucumber.jpg" alt="cucumber">
+        <h2>cucumber</h2>
+        <p> Vitamin K and Vitamin C. </p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="jack_fruit.jpg" alt="jackfruit">
+        <h2>jackfruit</h2>
+        <p>manage your weight and blood sugar, promote healthy skin, and keep your heart healthy.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="lemon.jpg" alt="lemon">
+        <h2>lemon</h2>
+        <p>boost immunity, aid digestion, promote skin health, and may even help with weight management and heart health. </p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="lettuce.jpg" alt="lettuce">
+        <h2>lettuce</h2>
+        <p>a good source of vitamins A, C, and K, as well as folate, fiber, and various minerals like potassium, calcium, and iron.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="musk_melon.jpg" alt="musk melon">
+        <h2>musk melon</h2>
+        <p> boost the immune system and promote healthy skin.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="okra.jpg" alt="okra">
+        <h2>okra</h2>
+        <p>Okra is rich in vitamins A and C, as well as antioxidants that help reduce the risk of serious health conditions like cancer, diabetes, stroke, and heart disease. Okra is also a good source of: Magnesium..</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div><div class="card">
+        <img src="red_cabbage.jpg" alt="red cabbage">
+        <h2>red cabbage</h2>
+        <p>packed with antioxidants like anthocyanins and vitamin C, which help fight inflammation and protect the heart</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div><div class="card">
+        <img src="red_paprika.jpg" alt="red paprika">
+        <h2>red paprika</h2>
+        <p>improve skin and eye health, boost the immune system, reduce inflammation, and potentially lower the risk of chronic diseases.</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+      <div class="card">
+        <img src="tomatoes.jpg" alt="tomatoes">
+        <h2>tomatoes</h2>
+        <p>improved heart health, skin health, and vision, while also potentially reducing the risk of certain cancers and supporting overall well-being</p>
+        <button class="add-to-cart">Add to Cart 🛒</button>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+  <div>
+ 
+  </div>
 </body>
 </html>

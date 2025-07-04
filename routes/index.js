@@ -17,4 +17,8 @@ router.get("/contact", (req, res) => {
 // Handle form submission on POST
 router.post("/contact", handleCreateNewPostOfCompany);
 
+router.get("/cart", (req, res) => {
+  res.render("cart");});
+
+
 module.exports = router;

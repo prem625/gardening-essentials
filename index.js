@@ -3,6 +3,8 @@ const path = require("path");
 const router = require("./routes/index");
 const express = require("express");
 
+app.use(express.static("staticAssets"));
+
 app.set("view engine", "ejs");
 app.set("views", path.resolve("views"));
 

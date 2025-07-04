@@ -1,0 +1,106 @@
+  
+ body {
+  background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCHdtCJjcfdUwVR74CW3BIGzRwDgHKXRCGjKqgsOjliTfSiniOzdvAp_DxgjYC4XTNw8sZ9hycULGOBUEWZHl83B0BbHP96NvHd45or5_LrWX1gTDRE1XUoRq51V8K1mslyLgREymfJTdC1J5v-PKnaVN-WO89Mw7a20K6aajiEtylUUPBeaMZDJqiqWk/w706-h475/IMG_20240602_074458200_HDR_AE%20(1).jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+#contactForm {
+  background: rgba(30, 30, 30, 0.92);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+  max-width: 480px;
+  margin: 120px auto 40px auto;
+  padding: 2px 32px 24px 32px;
+  text-align: center;
+}
+
+#contactForm h1 {
+  color: #ffe066;
+  margin-bottom: 24px;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+#contactForm label {
+  display: block;
+  text-align: left;
+  margin: 18px 0 6px 2px;
+  font-size: 1.1rem;
+  color: #ffe066;
+  font-weight: 500;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 90%;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border: 1.5px solid #ffe066;
+  border-radius: 6px;
+  background: #232323;
+  color: #fffbe7;
+  font-size: 1rem;
+  transition: border 0.2s;
+  outline: none;
+}
+
+
+
+#contactForm button {
+  margin-top: 18px;
+  padding: 10px 32px;
+  background-color: #ffe066;
+  color: #232323;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+#contactForm button:hover {
+  background-color: #232323;
+  color: #ffe066;
+
+}
+
+#contactBelow {
+  background: rgba(30, 30, 30, 0.85);
+  border-radius: 12px;
+  max-width: 480px;
+  margin: 0 auto 40px auto;
+  padding: 24px 32px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+}
+
+#contactH2 {
+  color: #ffe066;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+#contactBelow p, #contactBelow a {
+  color: #fffbe7;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+#contactBelow a {
+  color: #ffe066;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+#contactBelow a:hover {
+  color: #fffbe7;
+}
